@@ -1,14 +1,28 @@
 version: 0.6
 icons:
+    - apple
     - archlinux
+    - cassandra
     - centos
     - debian
+    - docker
     - fedora
     - freebsd
     - gentoo
+    - git
+    - github
+    - jsfiddle
     - linuxmint
+    - mogodb
+    - nodejs
+    - npm
     - opensuse
+    - python
+    - qrcode
+    - raspberrypi
     - redhat
     - slackware
+    - tux
     - ubuntu
     - ubuntu-inverse
+    - wireless
