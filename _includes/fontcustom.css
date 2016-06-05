@@ -3,6 +3,15 @@
 	padding: 10px 0 20px;
 	margin-bottom: 20px;
 }
+
+      .preview-glyphs { vertical-align: bottom; }
+
+      .preview-scale {
+        color: #888;
+        font-size: 12px;
+        margin-top: 5px;
+      }
+
 .preview-code {
 	display: inline-block;
 }
