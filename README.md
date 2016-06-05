@@ -12,12 +12,14 @@ inclusion in websites. Also borrowed some logos from [Font Mfizz](https://github
 To use the font, include `assets/font-linux.css` as well as the
 fonts in your project and use the CSS classes listed below.
 
-	<link href="/assets/fontlinux.css" rel="stylesheet">
+```html
+<link href="/assets/fontlinux.css" rel="stylesheet">
+```
 
 Or just link to it using [RawGit](https://rawgit.com) (served via [MaxCDN](https://www.maxcdn.com)'s network):
 
 ```html
-<link href="https://cdn.rawgit.com/walchko/font-linux/master/assets/font-linux.css" rel="stylesheet">
+<link href="https://cdn.rawgit.com/walchko/font-linux/v0.6/assets/font-linux.css" rel="stylesheet">
 ```
 
 MaxCDN uses the following links:
@@ -31,10 +33,10 @@ The font size can be changed by using `fl-number` where `number` can be: 12, 14,
 Logos can be displayed by calling the class name and optional font size:
 
 ```html
-<span class="fl-archlinux"></span>
-<span class="fl-archlinux fl-36"></span>
-<span class="fl-archlinux" style="font-size: 172px; color:red"></span>
-<span class="fl-archlinux" class="css class you made"></span>
+<i class="fl-archlinux"></i>
+<i class="fl-archlinux fl-36"></i>
+<i class="fl-archlinux" style="font-size: 172px; color:red"></i>
+<span class="css class you made"><span class="fl-archlinux"></i></span>
 ```
 
 Available logos are:
