@@ -36,7 +36,7 @@ Logos can be displayed by calling the class name and optional font size:
 <i class="fl-archlinux"></i>
 <i class="fl-archlinux fl-36"></i>
 <i class="fl-archlinux" style="font-size: 172px; color:red"></i>
-<span class="css class you made"><span class="fl-archlinux"></i></span>
+<span class="css class you made"><i class="fl-archlinux"></i></span>
 ```
 
 Available logos are:
