@@ -10,7 +10,7 @@ To use the font, include `assets/font-linux.css` as well as the fonts in your pr
 Or just link to it using [RawGit]("http://rawgit.com/") (served via [MaxCDN](http://www.maxcdn.com)'s network):
 
 {% highlight html %}
-<link href="//cdn.rawgit.com/walchko/font-linux/v{{ site.data.fl.version }}/assets/font-linux.css" rel="stylesheet">
+<link href="https://cdn.rawgit.com/walchko/font-linux/v{{ site.data.fl.version }}/assets/font-linux.css" rel="stylesheet">
 {% endhighlight %}
 
 Use the CSS classes listed below like this:
