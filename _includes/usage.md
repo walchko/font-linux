@@ -17,6 +17,9 @@ Use the CSS classes listed below like this:
 
 {% highlight html %}
 <i class="fl-archlinux"></i>
+<i class="fl-archlinux fl-24"></i>
+<i class="fl-archlinux fl-24" style="color:red"></i>
+<i class="fl-archlinux" style="font-size:172px;color:red"></i>
 {% endhighlight %}
 
 This project is released into the public domain. [View license](https://raw.githubusercontent.com/walchko/font-linux/v{{ site.data.fl.version }}/LICENSE)
