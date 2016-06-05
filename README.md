@@ -7,6 +7,8 @@ inclusion in websites. Also borrowed some logos from [Font Mfizz](https://github
 
 ## Usage ##
 
+See https://walchko.github.io/font-linux for more examples.
+
 *Note:* All brand icons are trademarks of their respective owners and should only be used to represent the company or product to which they refer.
 
 To use the font, include `assets/font-linux.css` as well as the
