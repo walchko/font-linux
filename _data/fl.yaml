@@ -1,21 +1,14 @@
-version: 0.5
+version: 0.6
 icons:
     - archlinux
     - centos
-    - coreos
     - debian
-    - elementary
     - fedora
-    - fedora-inverse
     - freebsd
     - gentoo
     - linuxmint
-    - linuxmint-inverse
-    - mageia
-    - mandriva
     - opensuse
     - redhat
     - slackware
-    - slackware-inverse
     - ubuntu
     - ubuntu-inverse
