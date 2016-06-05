@@ -18,7 +18,8 @@
 .step {
 	display: inline-block;
 	line-height: 1;
-	position: relative;	
+	position: relative;
+	width: 10%;
 }
 .step .letters,
 .step i {
