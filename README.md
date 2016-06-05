@@ -16,7 +16,9 @@ fonts in your project and use the CSS classes listed below.
 
 Or just link to it using [RawGit](https://rawgit.com) (served via [MaxCDN](https://www.maxcdn.com)'s network):
 
-	<link href="//cdn.rawgit.com/walchko/font-linux/master/assets/font-linux.css" rel="stylesheet">
+```html
+<link href="https://cdn.rawgit.com/walchko/font-linux/master/assets/font-linux.css" rel="stylesheet">
+```
 
 MaxCDN uses the following links:
 
@@ -31,7 +33,7 @@ Logos can be displayed by calling the class name and optional font size:
 ```html
 <span class="fl-archlinux"></span>
 <span class="fl-archlinux fl-36"></span>
-<span class="fl-archlinux" style="font-size: 72px; color:red"></span>
+<span class="fl-archlinux" style="font-size: 172px; color:red"></span>
 <span class="fl-archlinux" class="css class you made"></span>
 ```
 
@@ -67,6 +69,7 @@ Available logos are:
 | Wireless     | `fl-wireless`    
 
 ## Dependencies ##
+
 * This project uses [fontcustom](https://github.com/FontCustom/fontcustom) to compile vectors into fonts.
 * [wkhtmltopdf](http://wkhtmltopdf.org/) is used to generate this readme's preview image.
 
@@ -88,9 +91,6 @@ To compile everything including the readme's `preview.png`, run:
 
 	sh ./compile.sh
 
-To stage the new revision:
-
-	git add assets .fontcustom-manifest.json
-
 ## To Do
+
  - npm and jsfiddle icons aren't right
