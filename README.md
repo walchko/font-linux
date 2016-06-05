@@ -14,9 +14,14 @@ fonts in your project and use the CSS classes listed below.
 
 	<link href="/assets/fontlinux.css" rel="stylesheet">
 
-Or just link to it using [RawGit](//rawgit.com) (served via [MaxCDN](//www.maxcdn.com)'s network):
+Or just link to it using [RawGit](https://rawgit.com) (served via [MaxCDN](https://www.maxcdn.com)'s network):
 
 	<link href="//cdn.rawgit.com/walchko/font-linux/master/assets/font-linux.css" rel="stylesheet">
+
+MaxCDN uses the following links:
+
+	development: https://rawgit.com/user/repo/branch/file
+	production: https://cdn.rawgit.com/user/repo/tag/file
 
 The font size can be changed by using `fl-number` where `number` can be: 12, 14,
 16, 18, 21, 24, 36, 48, 60, or 72.
@@ -88,4 +93,4 @@ To stage the new revision:
 	git add assets .fontcustom-manifest.json
 
 ## To Do
- - npm, jsfiddle icons isn't right
+ - npm and jsfiddle icons aren't right
