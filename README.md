@@ -7,12 +7,11 @@ inclusion in websites. Also borrowed some logos from [Font Mfizz](https://github
 
 ## Usage ##
 
-See https://walchko.github.io/font-linux for more examples.
+See https://walchko.github.io/font-linux for icons and examples.
 
 *Note:* All brand icons are trademarks of their respective owners and should only be used to represent the company or product to which they refer.
 
-To use the font, include `assets/font-linux.css` as well as the
-fonts in your project and use the CSS classes listed below.
+To use the font, include `assets/font-linux.css` as well as the fonts in the project and use the CSS classes listed below.
 
 ```html
 <link href="/assets/fontlinux.css" rel="stylesheet">
@@ -28,49 +27,6 @@ MaxCDN uses the following links:
 
 	development: https://rawgit.com/user/repo/branch/file
 	production: https://cdn.rawgit.com/user/repo/tag/file
-
-The font size can be changed by using `fl-number` where `number` can be: 12, 14,
-16, 18, 21, 24, 36, 48, 60, or 72.
-
-Logos can be displayed by calling the class name and optional font size:
-
-```html
-<i class="fl-archlinux"></i>
-<i class="fl-archlinux fl-36"></i>
-<i class="fl-archlinux" style="font-size: 172px; color:red"></i>
-<span class="css class you made"><i class="fl-archlinux"></i></span>
-```
-
-Available logos are:
-
-| Logo         | CSS class                
-| -------------|--------------------------
-| Apple        | `fl-apple`
-| Arch Linux   | `fl-archlinux`           
-| Cassandra    | `fl-cassandra`
-| CentOS       | `fl-centos`              
-| Debian       | `fl-debian`              
-| Docker       | `fl-docker`              
-| Fedora       | `fl-fedora`              
-| FreeBSD      | `fl-freebsd`             
-| Gentoo       | `fl-gentoo`              
-| Git          | `fl-git`              
-| Github       | `fl-github`              
-| JSFiddle     | `fl-jsfiddle`              
-| Linux Mint   | `fl-linuxmint`           
-| MongoDB      | `fl-mongodb`           
-| Node.js      | `fl-nodejs`           
-| NPM          | `fl-npm`           
-| OpenSUSE     | `fl-opensuse`            
-| Python       | `fl-python`           
-| QR code      | `fl-qrcode`           
-| Raspberry Pi | `fl-raspberrypi`           
-| Red Hat      | `fl-redhat`              
-| Slackware    | `fl-slackware`
-| Stack Overflow | `fl-stackoverflow`
-| Tux (linux)  | `fl-tux`
-| Ubuntu       | `fl-ubuntu[-inverse]`
-| Wireless     | `fl-wireless`    
 
 ## Dependencies ##
 
@@ -95,6 +51,4 @@ To compile everything including the readme's `preview.png`, run:
 
 	sh ./compile.sh
 
-## To Do
 
- - npm and jsfiddle icons aren't right
