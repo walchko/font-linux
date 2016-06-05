@@ -3,7 +3,7 @@
 ![Available logos](assets/preview.png)
 
 Font-linux is an icon font containing logos of popular linux distributions for
-inclusion in websites. Also borrowed some logos from [Font Mfizz](https://github.com/fizzed/font-mfizz)
+inclusion in websites. Also borrowed some logos from [Font Mfizz](https://github.com/fizzed/font-mfizz).
 
 ## Usage ##
 
@@ -18,10 +18,14 @@ Or just link to it using [RawGit](//rawgit.com) (served via [MaxCDN](//www.maxcd
 
 	<link href="//cdn.rawgit.com/walchko/font-linux/master/assets/font-linux.css" rel="stylesheet">
 
-Logos can be displayed by calling the class name:
+The font size can be changed by using `fl-number` where `number` can be: 12, 14,
+16, 18, 21, 24, 36, 48, 60, or 72.
+
+Logos can be displayed by calling the class name and optional font size:
 
 ```html
 <span class="fl-archlinux"></span>
+<span class="fl-archlinux fl-36"></span>
 <span class="fl-archlinux" style="font-size: 72px; color:red"></span>
 <span class="fl-archlinux" class="css class you made"></span>
 ```

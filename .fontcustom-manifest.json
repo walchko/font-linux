@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "6ef7555270e9236140725a886911fdeb90078f3fcc6922e39add4026040103e3",
-    "current": "6ef7555270e9236140725a886911fdeb90078f3fcc6922e39add4026040103e3"
+    "previous": "d47ccdad53b946c324ed56e3ec464cbc85400342f7a14fefe8e0728f1b3cb5ec",
+    "current": "d47ccdad53b946c324ed56e3ec464cbc85400342f7a14fefe8e0728f1b3cb5ec"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -10,10 +10,6 @@
     "assets/font-linux.eot"
   ],
   "glyphs": {
-    "Tux": {
-      "codepoint": 61735,
-      "source": "vectors/Tux.svg"
-    },
     "apple": {
       "codepoint": 61718,
       "source": "vectors/apple.svg"
@@ -105,6 +101,10 @@
     "stackoverflow": {
       "codepoint": 61734,
       "source": "vectors/stackoverflow.svg"
+    },
+    "tux": {
+      "codepoint": 61736,
+      "source": "vectors/tux.svg"
     },
     "ubuntu": {
       "codepoint": 61709,
