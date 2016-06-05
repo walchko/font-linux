@@ -2,8 +2,8 @@
 
 ![Available logos](assets/preview.png)
 
-Font-linux is an icon font containing logos of popular linux distributions for 
-inclusion in websites.
+Font-linux is an icon font containing logos of popular linux distributions for
+inclusion in websites. Also borrowed some logos from [Font Mfizz](https://github.com/fizzed/font-mfizz)
 
 ## Usage ##
 
@@ -16,31 +16,57 @@ fonts in your project and use the CSS classes listed below.
 
 Or just link to it using [RawGit](//rawgit.com) (served via [MaxCDN](//www.maxcdn.com)'s network):
 
-	<link href="//cdn.rawgit.com/Lukas-W/font-linux/v0.5/assets/font-linux.css" rel="stylesheet">
+	<link href="//cdn.rawgit.com/walchko/font-linux/master/assets/font-linux.css" rel="stylesheet">
+
+Logos can be displayed by calling the class name:
+
+```html
+<span class="fl-archlinux"></span>
+<span class="fl-archlinux" style="font-size: 72px; color:red"></span>
+<span class="fl-archlinux" class="css class you made"></span>
+```
 
 Available logos are:
 
-| Distribution | CSS class                | Inclusion code
-| -------------|--------------------------|-------------------------------------
-| Arch Linux   | `fl-archlinux`           | `<span class="fl-archlinux"></span>`
-| CentOS       | `fl-centos`              | `<span class="fl-centos"></span>`
-| CoreOS       | `fl-coreos`              | `<span class="fl-coreos"></span>`
-| Debian       | `fl-debian`              | `<span class="fl-debian"></span>`
-| elementary OS| `fl-elementary`          | `<span class="fl-elementary"></span>`
-| Fedora       | `fl-fedora[-inverse]`    | `<span class="fl-fedora"></span>`
-| FreeBSD      | `fl-freebsd`             | `<span class="fl-freebsd"></span>`
-| Gentoo       | `fl-gentoo`              | `<span class="fl-gentoo"></span>`
-| Linux Mint   | `fl-linuxmint[-inverse]` | `<span class="fl-linuxmint"></span>`
-| Mageia       | `fl-mageia`              | `<span class="fl-mageia"></span>`
-| Mandriva     | `fl-mandriva`            | `<span class="fl-mandriva"></span>`
-| OpenSUSE     | `fl-opensuse`            | `<span class="fl-opensuse"></span>`
-| Red Hat      | `fl-redhat`              | `<span class="fl-redhat"></span>`
-| Slackware    | `fl-slackware[-inverse]` | `<span class="fl-slackware"></span>`
-| Ubuntu       | `fl-ubuntu[-inverse]`    | `<span class="fl-ubuntu"></span>`
+| Logo         | CSS class                
+| -------------|--------------------------
+| Apple        | `fl-apple`
+| Arch Linux   | `fl-archlinux`           
+| Cassandra    | `fl-cassandra`
+| CentOS       | `fl-centos`              
+| Debian       | `fl-debian`              
+| Docker       | `fl-docker`              
+| Fedora       | `fl-fedora`              
+| FreeBSD      | `fl-freebsd`             
+| Gentoo       | `fl-gentoo`              
+| Git          | `fl-git`              
+| Github       | `fl-github`              
+| JSFiddle     | `fl-jsfiddle`              
+| Linux Mint   | `fl-linuxmint`           
+| MongoDB      | `fl-mongodb`           
+| Node.js      | `fl-nodejs`           
+| NPM          | `fl-npm`           
+| OpenSUSE     | `fl-opensuse`            
+| Python       | `fl-python`           
+| QR code      | `fl-qrcode`           
+| Raspberry Pi | `fl-raspberrypi`           
+| Red Hat      | `fl-redhat`              
+| Slackware    | `fl-slackware`
+| Stack Overflow | `fl-stackoverflow`
+| Tux (linux)  | `fl-tux`
+| Ubuntu       | `fl-ubuntu[-inverse]`
+| Wireless     | `fl-wireless`    
 
 ## Dependencies ##
-* This project uses [fontcustom](//fontcustom.github.io/fontcustom/) to compile vectors into fonts.
+* This project uses [fontcustom](https://github.com/FontCustom/fontcustom) to compile vectors into fonts.
 * [wkhtmltopdf](http://wkhtmltopdf.org/) is used to generate this readme's preview image.
+
+### Setup Summary for OSX
+
+	brew install fontforge --with-python
+	brew install eot-utils
+	gem install fontcustom
+	brew cask install wkhtmltopdf
 
 ## Compilation of the vectors ##
 
@@ -56,3 +82,6 @@ To compile everything including the readme's `preview.png`, run:
 To stage the new revision:
 
 	git add assets .fontcustom-manifest.json
+
+## To Do
+ - npm, jsfiddle icons isn't right

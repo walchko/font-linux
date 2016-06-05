@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "d16c93191cd18bceae7bb9c523f192eb815b1ff3628fe6a31da1f6e1758e692a",
-    "current": "d16c93191cd18bceae7bb9c523f192eb815b1ff3628fe6a31da1f6e1758e692a"
+    "previous": "6ef7555270e9236140725a886911fdeb90078f3fcc6922e39add4026040103e3",
+    "current": "6ef7555270e9236140725a886911fdeb90078f3fcc6922e39add4026040103e3"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -10,33 +10,37 @@
     "assets/font-linux.eot"
   ],
   "glyphs": {
+    "Tux": {
+      "codepoint": 61735,
+      "source": "vectors/Tux.svg"
+    },
+    "apple": {
+      "codepoint": 61718,
+      "source": "vectors/apple.svg"
+    },
     "archlinux": {
       "codepoint": 61696,
       "source": "vectors/archlinux.svg"
+    },
+    "cassandra": {
+      "codepoint": 61719,
+      "source": "vectors/cassandra.svg"
     },
     "centos": {
       "codepoint": 61697,
       "source": "vectors/centos.svg"
     },
-    "coreos": {
-      "codepoint": 61712,
-      "source": "vectors/coreos.svg"
-    },
     "debian": {
       "codepoint": 61698,
       "source": "vectors/debian.svg"
     },
-    "elementary": {
-      "codepoint": 61715,
-      "source": "vectors/elementary.svg"
+    "docker": {
+      "codepoint": 61720,
+      "source": "vectors/docker.svg"
     },
     "fedora": {
       "codepoint": 61699,
       "source": "vectors/fedora.svg"
-    },
-    "fedora-inverse": {
-      "codepoint": 61716,
-      "source": "vectors/fedora-inverse.svg"
     },
     "freebsd": {
       "codepoint": 61711,
@@ -46,41 +50,61 @@
       "codepoint": 61713,
       "source": "vectors/gentoo.svg"
     },
+    "git": {
+      "codepoint": 61721,
+      "source": "vectors/git.svg"
+    },
+    "github": {
+      "codepoint": 61722,
+      "source": "vectors/github.svg"
+    },
+    "jsfiddle": {
+      "codepoint": 61724,
+      "source": "vectors/jsfiddle.svg"
+    },
     "linuxmint": {
       "codepoint": 61701,
       "source": "vectors/linuxmint.svg"
     },
-    "linuxmint-inverse": {
-      "codepoint": 61702,
-      "source": "vectors/linuxmint-inverse.svg"
+    "mongodb": {
+      "codepoint": 61725,
+      "source": "vectors/mongodb.svg"
     },
-    "mageia": {
-      "codepoint": 61703,
-      "source": "vectors/mageia.svg"
+    "nodejs": {
+      "codepoint": 61733,
+      "source": "vectors/nodejs.svg"
     },
-    "mandriva": {
-      "codepoint": 61704,
-      "source": "vectors/mandriva.svg"
+    "npm": {
+      "codepoint": 61727,
+      "source": "vectors/npm.svg"
     },
     "opensuse": {
       "codepoint": 61705,
       "source": "vectors/opensuse.svg"
     },
+    "python": {
+      "codepoint": 61728,
+      "source": "vectors/python.svg"
+    },
+    "qrcode": {
+      "codepoint": 61729,
+      "source": "vectors/qrcode.svg"
+    },
+    "raspberrypi": {
+      "codepoint": 61730,
+      "source": "vectors/raspberrypi.svg"
+    },
     "redhat": {
       "codepoint": 61706,
       "source": "vectors/redhat.svg"
-    },
-    "sabayon": {
-      "codepoint": 61717,
-      "source": "vectors/sabayon.svg"
     },
     "slackware": {
       "codepoint": 61707,
       "source": "vectors/slackware.svg"
     },
-    "slackware-inverse": {
-      "codepoint": 61708,
-      "source": "vectors/slackware-inverse.svg"
+    "stackoverflow": {
+      "codepoint": 61734,
+      "source": "vectors/stackoverflow.svg"
     },
     "ubuntu": {
       "codepoint": 61709,
@@ -89,6 +113,10 @@
     "ubuntu-inverse": {
       "codepoint": 61710,
       "source": "vectors/ubuntu-inverse.svg"
+    },
+    "wireless": {
+      "codepoint": 61731,
+      "source": "vectors/wireless.svg"
     }
   },
   "options": {

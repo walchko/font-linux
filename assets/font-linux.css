@@ -49,26 +49,33 @@
 [data-icon]:before { content: attr(data-icon); }
 
 [data-icon]:before,
+.fl-Tux:before,
+.fl-apple:before,
 .fl-archlinux:before,
+.fl-cassandra:before,
 .fl-centos:before,
-.fl-coreos:before,
 .fl-debian:before,
-.fl-elementary:before,
+.fl-docker:before,
 .fl-fedora:before,
-.fl-fedora-inverse:before,
 .fl-freebsd:before,
 .fl-gentoo:before,
+.fl-git:before,
+.fl-github:before,
+.fl-jsfiddle:before,
 .fl-linuxmint:before,
-.fl-linuxmint-inverse:before,
-.fl-mageia:before,
-.fl-mandriva:before,
+.fl-mongodb:before,
+.fl-nodejs:before,
+.fl-npm:before,
 .fl-opensuse:before,
+.fl-python:before,
+.fl-qrcode:before,
+.fl-raspberrypi:before,
 .fl-redhat:before,
-.fl-sabayon:before,
 .fl-slackware:before,
-.fl-slackware-inverse:before,
+.fl-stackoverflow:before,
 .fl-ubuntu:before,
-.fl-ubuntu-inverse:before {
+.fl-ubuntu-inverse:before,
+.fl-wireless:before {
   display: inline-block;
   font-family: "font-linux";
   font-style: normal;
@@ -83,23 +90,30 @@
   font-smoothing: antialiased;
 }
 
+.fl-Tux:before { content: "\f127"; }
+.fl-apple:before { content: "\f116"; }
 .fl-archlinux:before { content: "\f100"; }
+.fl-cassandra:before { content: "\f117"; }
 .fl-centos:before { content: "\f101"; }
-.fl-coreos:before { content: "\f110"; }
 .fl-debian:before { content: "\f102"; }
-.fl-elementary:before { content: "\f113"; }
+.fl-docker:before { content: "\f118"; }
 .fl-fedora:before { content: "\f103"; }
-.fl-fedora-inverse:before { content: "\f114"; }
 .fl-freebsd:before { content: "\f10f"; }
 .fl-gentoo:before { content: "\f111"; }
+.fl-git:before { content: "\f119"; }
+.fl-github:before { content: "\f11a"; }
+.fl-jsfiddle:before { content: "\f11c"; }
 .fl-linuxmint:before { content: "\f105"; }
-.fl-linuxmint-inverse:before { content: "\f106"; }
-.fl-mageia:before { content: "\f107"; }
-.fl-mandriva:before { content: "\f108"; }
+.fl-mongodb:before { content: "\f11d"; }
+.fl-nodejs:before { content: "\f125"; }
+.fl-npm:before { content: "\f11f"; }
 .fl-opensuse:before { content: "\f109"; }
+.fl-python:before { content: "\f120"; }
+.fl-qrcode:before { content: "\f121"; }
+.fl-raspberrypi:before { content: "\f122"; }
 .fl-redhat:before { content: "\f10a"; }
-.fl-sabayon:before { content: "\f115"; }
 .fl-slackware:before { content: "\f10b"; }
-.fl-slackware-inverse:before { content: "\f10c"; }
+.fl-stackoverflow:before { content: "\f126"; }
 .fl-ubuntu:before { content: "\f10d"; }
 .fl-ubuntu-inverse:before { content: "\f10e"; }
+.fl-wireless:before { content: "\f123"; }
