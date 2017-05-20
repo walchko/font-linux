@@ -1,15 +1,13 @@
-# font-linux #
+# font-linux
 
 ![Available logos](assets/preview.png)
 
 Font-linux is an icon font containing logos of popular linux distributions for
 inclusion in websites. Also borrowed some logos from [Font Mfizz](https://github.com/fizzed/font-mfizz).
 
-## Usage ##
+## Usage
 
 See https://walchko.github.io/font-linux for icons and examples.
-
-*Note:* All brand icons are trademarks of their respective owners and should only be used to represent the company or product to which they refer.
 
 To use the font, include `assets/font-linux.css` as well as the fonts in the project and use the CSS classes listed below.
 
@@ -28,7 +26,7 @@ MaxCDN uses the following links:
 	development: https://rawgit.com/user/repo/branch/file
 	production: https://cdn.rawgit.com/user/repo/tag/file
 
-## Dependencies ##
+## Dependencies
 
 * This project uses [fontcustom](https://github.com/FontCustom/fontcustom) to compile vectors into fonts.
 * [wkhtmltopdf](http://wkhtmltopdf.org/) is used to generate this readme's preview image.
@@ -40,7 +38,7 @@ MaxCDN uses the following links:
 	gem install fontcustom
 	brew cask install wkhtmltopdf
 
-## Compilation of the vectors ##
+## Compilation of the vectors
 
 After making changes to one of the vectors, the fonts have to be recompiled.
 From the root directory, run:
@@ -51,4 +49,9 @@ To compile everything including the readme's `preview.png`, run:
 
 	sh ./compile.sh
 
+# MIT License
 
+*Note:* All brand icons are trademarks of their respective owners and should only be used to represent the company or product to which they refer.
+
+- [Font-Awesome-SVG-PNG](https://github.com/encharm/Font-Awesome-SVG-PNG)
+- [font-mfizz](https://github.com/fizzed/font-mfizz)
