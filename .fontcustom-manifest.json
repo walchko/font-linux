@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "d47ccdad53b946c324ed56e3ec464cbc85400342f7a14fefe8e0728f1b3cb5ec",
-    "current": "d47ccdad53b946c324ed56e3ec464cbc85400342f7a14fefe8e0728f1b3cb5ec"
+    "previous": "41c90398a077499e635e1ec9f9db98e5a985d2b30ec5a36096e0813d622ed32f",
+    "current": "41c90398a077499e635e1ec9f9db98e5a985d2b30ec5a36096e0813d622ed32f"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -18,6 +18,14 @@
       "codepoint": 61696,
       "source": "vectors/archlinux.svg"
     },
+    "bitbucket": {
+      "codepoint": 61737,
+      "source": "vectors/bitbucket.svg"
+    },
+    "bluetooth": {
+      "codepoint": 61738,
+      "source": "vectors/bluetooth.svg"
+    },
     "cassandra": {
       "codepoint": 61719,
       "source": "vectors/cassandra.svg"
@@ -30,9 +38,21 @@
       "codepoint": 61698,
       "source": "vectors/debian.svg"
     },
+    "desktop": {
+      "codepoint": 61739,
+      "source": "vectors/desktop.svg"
+    },
     "docker": {
       "codepoint": 61720,
       "source": "vectors/docker.svg"
+    },
+    "dropbox": {
+      "codepoint": 61740,
+      "source": "vectors/dropbox.svg"
+    },
+    "empire": {
+      "codepoint": 61741,
+      "source": "vectors/empire.svg"
     },
     "fedora": {
       "codepoint": 61699,
@@ -54,6 +74,10 @@
       "codepoint": 61722,
       "source": "vectors/github.svg"
     },
+    "hdd-o": {
+      "codepoint": 61742,
+      "source": "vectors/hdd-o.svg"
+    },
     "jsfiddle": {
       "codepoint": 61724,
       "source": "vectors/jsfiddle.svg"
@@ -61,6 +85,10 @@
     "linuxmint": {
       "codepoint": 61701,
       "source": "vectors/linuxmint.svg"
+    },
+    "mobile": {
+      "codepoint": 61743,
+      "source": "vectors/mobile.svg"
     },
     "mongodb": {
       "codepoint": 61725,
@@ -90,9 +118,17 @@
       "codepoint": 61730,
       "source": "vectors/raspberrypi.svg"
     },
+    "rebel": {
+      "codepoint": 61744,
+      "source": "vectors/rebel.svg"
+    },
     "redhat": {
       "codepoint": 61706,
       "source": "vectors/redhat.svg"
+    },
+    "rocket": {
+      "codepoint": 61745,
+      "source": "vectors/rocket.svg"
     },
     "slackware": {
       "codepoint": 61707,
@@ -102,9 +138,17 @@
       "codepoint": 61734,
       "source": "vectors/stackoverflow.svg"
     },
+    "tablet": {
+      "codepoint": 61746,
+      "source": "vectors/tablet.svg"
+    },
     "tux": {
       "codepoint": 61736,
       "source": "vectors/tux.svg"
+    },
+    "twitter": {
+      "codepoint": 61747,
+      "source": "vectors/twitter.svg"
     },
     "ubuntu": {
       "codepoint": 61709,
