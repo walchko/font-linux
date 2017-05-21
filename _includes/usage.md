@@ -22,6 +22,4 @@ Use the CSS classes listed below like this:
 <i class="fl-archlinux" style="font-size:172px;color:red"></i>
 {% endhighlight %}
 
-This project is released into the public domain. [View license](https://raw.githubusercontent.com/walchko/font-linux/v{{ site.data.fl.version }}/LICENSE)
-
 *Note:* All brand icons are trademarks of their respective owners and should only be used to represent the company or product to which they refer.
