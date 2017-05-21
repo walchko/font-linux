@@ -1,18 +1,25 @@
-version: 0.6
+version: 0.7.1
 icons:
     - apple
     - archlinux
+    - bitbucket
+    - bluetooth
     - cassandra
     - centos
     - debian
+    - desktop
     - docker
+    - dropbox
+    - empire
     - fedora
     - freebsd
     - gentoo
     - git
     - github
+    - hdd-o
     - jsfiddle
     - linuxmint
+    - mobile
     - mongodb
     - nodejs
     - npm
@@ -20,8 +27,11 @@ icons:
     - python
     - qrcode
     - raspberrypi
+    - rebel
     - redhat
+    - rocket
     - slackware
+    - tablet
     - tux
     - ubuntu
     - ubuntu-inverse
