@@ -45,6 +45,12 @@
 
 .fl-72 { font-size: 72px; }
 
+.fl-96 { font-size: 96px; }
+
+.fl-128 { font-size: 128px; }
+
+.fl-256 { font-size: 256px; }
+
 
 [data-icon]:before { content: attr(data-icon); }
 
@@ -80,6 +86,7 @@
 .fl-redhat:before,
 .fl-rocket:before,
 .fl-slackware:before,
+.fl-stackexchange:before,
 .fl-stackoverflow:before,
 .fl-tablet:before,
 .fl-tux:before,
@@ -132,6 +139,7 @@
 .fl-redhat:before { content: "\f10a"; }
 .fl-rocket:before { content: "\f131"; }
 .fl-slackware:before { content: "\f10b"; }
+.fl-stackexchange:before { content: "\f134"; }
 .fl-stackoverflow:before { content: "\f126"; }
 .fl-tablet:before { content: "\f132"; }
 .fl-tux:before { content: "\f128"; }

@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "41c90398a077499e635e1ec9f9db98e5a985d2b30ec5a36096e0813d622ed32f",
-    "current": "41c90398a077499e635e1ec9f9db98e5a985d2b30ec5a36096e0813d622ed32f"
+    "previous": "c06a03794f5bdd5ebd516ff681e68f9c668b15def1b1a1bfd9d15b24ffcaf2d6",
+    "current": "c06a03794f5bdd5ebd516ff681e68f9c668b15def1b1a1bfd9d15b24ffcaf2d6"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -133,6 +133,10 @@
     "slackware": {
       "codepoint": 61707,
       "source": "vectors/slackware.svg"
+    },
+    "stackexchange": {
+      "codepoint": 61748,
+      "source": "vectors/stackexchange.svg"
     },
     "stackoverflow": {
       "codepoint": 61734,
