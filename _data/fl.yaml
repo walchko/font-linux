@@ -24,6 +24,7 @@ icons:
     - nodejs
     - npm
     - opensuse
+    - rocket
     - python
     - qrcode
     - raspberrypi
@@ -31,8 +32,11 @@ icons:
     - redhat
     - rocket
     - slackware
+    - stack-exchange
+    - stackoverflow
     - tablet
     - tux
+    - twitter
     - ubuntu
     - ubuntu-inverse
     - wireless
