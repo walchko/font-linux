@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "c06a03794f5bdd5ebd516ff681e68f9c668b15def1b1a1bfd9d15b24ffcaf2d6",
-    "current": "c06a03794f5bdd5ebd516ff681e68f9c668b15def1b1a1bfd9d15b24ffcaf2d6"
+    "previous": "6cdd9b63b34920f7f31135ebdc1c7d8a10d2ce5a9e7a73cfb4c9e36f90cebaa9",
+    "current": "6cdd9b63b34920f7f31135ebdc1c7d8a10d2ce5a9e7a73cfb4c9e36f90cebaa9"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -74,9 +74,9 @@
       "codepoint": 61722,
       "source": "vectors/github.svg"
     },
-    "hdd-o": {
-      "codepoint": 61742,
-      "source": "vectors/hdd-o.svg"
+    "hdd": {
+      "codepoint": 61749,
+      "source": "vectors/hdd.svg"
     },
     "jsfiddle": {
       "codepoint": 61724,

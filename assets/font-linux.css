@@ -71,7 +71,7 @@
 .fl-gentoo:before,
 .fl-git:before,
 .fl-github:before,
-.fl-hdd-o:before,
+.fl-hdd:before,
 .fl-jsfiddle:before,
 .fl-linuxmint:before,
 .fl-mobile:before,
@@ -124,7 +124,7 @@
 .fl-gentoo:before { content: "\f111"; }
 .fl-git:before { content: "\f119"; }
 .fl-github:before { content: "\f11a"; }
-.fl-hdd-o:before { content: "\f12e"; }
+.fl-hdd:before { content: "\f135"; }
 .fl-jsfiddle:before { content: "\f11c"; }
 .fl-linuxmint:before { content: "\f105"; }
 .fl-mobile:before { content: "\f12f"; }
