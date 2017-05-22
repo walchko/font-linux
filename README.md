@@ -2,8 +2,7 @@
 
 ![Available logos](assets/preview.png)
 
-Font-linux is an icon font containing logos of popular linux distributions for
-inclusion in websites. Also borrowed some logos from [Font Mfizz](https://github.com/fizzed/font-mfizz).
+Font-linux is an icon font containing logos of popular linux distributions and services.
 
 ## Usage
 
