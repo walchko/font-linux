@@ -1,13 +1,13 @@
 {
   "checksum": {
-    "previous": "6cdd9b63b34920f7f31135ebdc1c7d8a10d2ce5a9e7a73cfb4c9e36f90cebaa9",
-    "current": "6cdd9b63b34920f7f31135ebdc1c7d8a10d2ce5a9e7a73cfb4c9e36f90cebaa9"
+    "previous": "72fe964b3be2d7866afd0d3bc0f7dbae1a74fcdb380507c2b87cd0abca7a2f98",
+    "current": "72fe964b3be2d7866afd0d3bc0f7dbae1a74fcdb380507c2b87cd0abca7a2f98"
   },
   "fonts": [
-    "assets/font-linux.ttf",
-    "assets/font-linux.svg",
-    "assets/font-linux.woff",
-    "assets/font-linux.eot"
+    "assets/techno-font.ttf",
+    "assets/techno-font.svg",
+    "assets/techno-font.woff",
+    "assets/techno-font.eot"
   ],
   "glyphs": {
     "apple": {
@@ -34,6 +34,10 @@
       "codepoint": 61697,
       "source": "vectors/centos.svg"
     },
+    "css3": {
+      "codepoint": 61750,
+      "source": "vectors/css3.svg"
+    },
     "debian": {
       "codepoint": 61698,
       "source": "vectors/debian.svg"
@@ -58,6 +62,10 @@
       "codepoint": 61699,
       "source": "vectors/fedora.svg"
     },
+    "first-order": {
+      "codepoint": 61751,
+      "source": "vectors/first-order.svg"
+    },
     "freebsd": {
       "codepoint": 61711,
       "source": "vectors/freebsd.svg"
@@ -74,9 +82,17 @@
       "codepoint": 61722,
       "source": "vectors/github.svg"
     },
+    "github-alt": {
+      "codepoint": 61752,
+      "source": "vectors/github-alt.svg"
+    },
     "hdd": {
       "codepoint": 61749,
       "source": "vectors/hdd.svg"
+    },
+    "html5": {
+      "codepoint": 61753,
+      "source": "vectors/html5.svg"
     },
     "jsfiddle": {
       "codepoint": 61724,
@@ -85,6 +101,10 @@
     "linuxmint": {
       "codepoint": 61701,
       "source": "vectors/linuxmint.svg"
+    },
+    "microchip": {
+      "codepoint": 61754,
+      "source": "vectors/microchip.svg"
     },
     "mobile": {
       "codepoint": 61743,
@@ -113,6 +133,10 @@
     "qrcode": {
       "codepoint": 61729,
       "source": "vectors/qrcode.svg"
+    },
+    "qrcode-alt": {
+      "codepoint": 61755,
+      "source": "vectors/qrcode-alt.svg"
     },
     "raspberrypi": {
       "codepoint": 61730,
@@ -162,21 +186,29 @@
       "codepoint": 61710,
       "source": "vectors/ubuntu-inverse.svg"
     },
+    "vimeo": {
+      "codepoint": 61756,
+      "source": "vectors/vimeo.svg"
+    },
     "wireless": {
       "codepoint": 61731,
       "source": "vectors/wireless.svg"
+    },
+    "youtube": {
+      "codepoint": 61757,
+      "source": "vectors/youtube.svg"
     }
   },
   "options": {
     "autowidth": false,
     "config": "fontcustom.yml",
-    "css_selector": ".fl-{{glyph}}",
+    "css_selector": ".tf-{{glyph}}",
     "debug": false,
     "font_ascent": 448,
     "font_descent": 64,
     "font_design_size": 16,
     "font_em": 512,
-    "font_name": "font-linux",
+    "font_name": "techno-font",
     "force": false,
     "input": {
       "templates": "templates",
@@ -185,21 +217,21 @@
     "no_hash": true,
     "output": {
       "css": "assets",
-      "font-linux.css": "assets",
       "fonts": "assets",
-      "preview": "assets"
+      "preview": "assets",
+      "techno-font.css": "assets"
     },
     "preprocessor_path": "",
     "quiet": false,
     "templates": [
       "preview",
-      "font-linux.css",
+      "techno-font.css",
       "icon_preview.html"
     ]
   },
   "templates": [
-    "assets/font-linux-preview.html",
-    "assets/font-linux.css",
+    "assets/techno-font-preview.html",
+    "assets/techno-font.css",
     "assets/icon_preview.html"
   ]
 }
