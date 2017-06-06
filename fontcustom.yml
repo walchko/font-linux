@@ -4,8 +4,8 @@
 #   `fontcustom help` or visiting <http://fontcustom.com>.
 # --------------------------------------------------------------------------- #
 
-font_name: font-linux
-css_selector: .fl-{{glyph}}
+font_name: techno-font
+css_selector: .tf-{{glyph}}
 preprocessor_path: ""
 autowidth: false
 no_hash: true
@@ -27,8 +27,10 @@ input:
 # --------------------------------------------------------------------------- #
 
 output:
-  fonts: assets                              # required
-  font-linux.css: assets
+  fonts: assets                             # required
+  techno-font.css: assets
+  index.html: docs
+  preview: docs
 
 
 # --------------------------------------------------------------------------- #
@@ -40,5 +42,7 @@ output:
 
 templates:
  - preview
- - font-linux.css
- - icon_preview.html
+ - techno-font.css
+ - index.html
+
+ # autowidth: true

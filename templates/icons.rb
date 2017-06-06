@@ -5,6 +5,7 @@ def getGroupedIcons
 	@glyphs.each do |name, value|
 		infix = name.to_s.split('-')[0]
 		infix_index = icons[infix]
+		# infix_index = icons[name]
 
 		if infix_index.nil?
 			icons[infix] = [value]

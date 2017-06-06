@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<%
+	load 'templates/icons.rb'
+	icons = getGroupedIcons()
+
+	image_width = 888
+
+	version = '0.7.3'
+
+	icon_count = icons.length
+	spacing = 10
+	total_spacing = spacing * icon_count
+	icon_size = (image_width - total_spacing) / icon_count
+%>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../assets/techno-font.css" rel="stylesheet">
+<link href="//cdn.rawgit.com/walchko/techno-font/v0.7.3/assets/techno-font.css" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+
+
+<style>
+	body {
+		color: #333;
+		font-size: 12;
+	}
+	div {
+		margin: 5px;
+		width: 100%;
+		/*padding: 5px;*/
+	}
+	span {
+		font-size: 12;
+		margin: 5%;
+		text-align: middle;
+	}
+	.center {
+		text-align: center;
+	}
+	p, h1, h2 {
+		margin: 1em 1em;
+	}
+	header {
+		background-color: #0066cc;
+		color: white;
+		font-size: 400%;
+		height: 1.5em;
+		padding: 0.5em;
+	}
+	.right {
+		/*text-align: right;*/
+		float: right;
+		/*width: 100%;*/
+	}
+	.bob:visited, .bob:link {
+		color: white;
+	}
+	figure {
+		background-color: #eeeeee;
+		padding:0.25em;
+	}
+</style>
+</head>
+
+<body>
+
+	<header>
+		Techno-Font <%= version %>
+		<a href="https://github.com/walchko/techno-font" class="bob"><i class="tf-github right"></i></a>
+	</header>
+
+<h2>Usage</h2>
+
+<p>To use the font, include assets/techno-font.css as well as the fonts in your project.</p>
+
+<figure>
+<p>
+<code>&lt;link href="/assets/techno-font.css" rel="stylesheet"&gt;</code>
+</p>
+</figure>
+
+<p>Or just link to it using RawGit (served via MaxCDN’s network):</p>
+
+<figure>
+<p><code>&lt;link href="https://cdn.rawgit.com/walchko/techno-font/<%= version %>/assets/techno-font.css" rel="stylesheet"&gt;</code></p></figure>
+
+<p>Use the CSS classes listed below like this:</p>
+
+<figure>
+<p><code>&lt;i class="tf-archlinux"&gt;&lt;/i&gt;</code></p>
+<p><code>&lt;i class="tf-archlinux tf-24"&gt;&lt;/i&gt;</code></p>
+<p><code>&lt;i class="tf-archlinux tf-24" style="color:red"&gt;&lt;/i&gt;</code></p>
+<p><code>&lt;i class="tf-archlinux" style="font-size:172px;color:red"&gt;&lt;/i&gt;</code></p>
+</figure>
+
+<hr>
+
+	<div class="pure-g center">
+		<% icons.each do |name, value| %><div class="pure-u-1-5"><i class="tf-<%= name %> tf-48"></i><span>tf-<%= name %></span></div><% end %>
+	</div>
+</body>
+</html>
