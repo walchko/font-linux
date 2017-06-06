@@ -27,8 +27,10 @@ input:
 # --------------------------------------------------------------------------- #
 
 output:
-  fonts: assets                              # required
+  fonts: assets                             # required
   techno-font.css: assets
+  index.html: docs
+  preview: docs
 
 
 # --------------------------------------------------------------------------- #
@@ -41,4 +43,6 @@ output:
 templates:
  - preview
  - techno-font.css
- - icon_preview.html
+ - index.html
+
+ # autowidth: true

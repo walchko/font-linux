@@ -68,7 +68,7 @@
 .tf-dropbox:before,
 .tf-empire:before,
 .tf-fedora:before,
-.tf-first-order:before,
+.tf-firstorder:before,
 .tf-freebsd:before,
 .tf-gentoo:before,
 .tf-git:before,
@@ -129,7 +129,7 @@
 .tf-dropbox:before { content: "\f12c"; }
 .tf-empire:before { content: "\f12d"; }
 .tf-fedora:before { content: "\f103"; }
-.tf-first-order:before { content: "\f137"; }
+.tf-firstorder:before { content: "\f13e"; }
 .tf-freebsd:before { content: "\f10f"; }
 .tf-gentoo:before { content: "\f111"; }
 .tf-git:before { content: "\f119"; }

@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "72fe964b3be2d7866afd0d3bc0f7dbae1a74fcdb380507c2b87cd0abca7a2f98",
-    "current": "72fe964b3be2d7866afd0d3bc0f7dbae1a74fcdb380507c2b87cd0abca7a2f98"
+    "previous": "9a8614b92b75be53b35a51065bc33942df809ee4f07d98607deb6260b06f0fc1",
+    "current": "9a8614b92b75be53b35a51065bc33942df809ee4f07d98607deb6260b06f0fc1"
   },
   "fonts": [
     "assets/techno-font.ttf",
@@ -62,9 +62,9 @@
       "codepoint": 61699,
       "source": "vectors/fedora.svg"
     },
-    "first-order": {
-      "codepoint": 61751,
-      "source": "vectors/first-order.svg"
+    "firstorder": {
+      "codepoint": 61758,
+      "source": "vectors/firstorder.svg"
     },
     "freebsd": {
       "codepoint": 61711,
@@ -218,7 +218,8 @@
     "output": {
       "css": "assets",
       "fonts": "assets",
-      "preview": "assets",
+      "index.html": "docs",
+      "preview": "docs",
       "techno-font.css": "assets"
     },
     "preprocessor_path": "",
@@ -226,12 +227,12 @@
     "templates": [
       "preview",
       "techno-font.css",
-      "icon_preview.html"
+      "index.html"
     ]
   },
   "templates": [
-    "assets/techno-font-preview.html",
+    "docs/techno-font-preview.html",
     "assets/techno-font.css",
-    "assets/icon_preview.html"
+    "docs/index.html"
   ]
 }

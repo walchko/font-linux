@@ -1,14 +1,14 @@
-# font-linux
+# techno-font
 
 ![Available logos](assets/preview.png)
 
-Font-linux is an icon font containing logos of popular linux distributions and services.
+techno-font is an icon font containing logos of popular linux distributions and services.
 
 ## Usage
 
-See https://walchko.github.io/font-linux for icons and examples.
+See https://walchko.github.io/techno-font for icons and examples.
 
-To use the font, include `assets/font-linux.css` as well as the fonts in the project and use the CSS classes listed below.
+To use the font, include `assets/techno-font.css` as well as the fonts in the project and use the CSS classes listed below.
 
 ```html
 <link href="/assets/fontlinux.css" rel="stylesheet">
@@ -17,7 +17,7 @@ To use the font, include `assets/font-linux.css` as well as the fonts in the pro
 Or just link to it using [RawGit](https://rawgit.com) (served via [MaxCDN](https://www.maxcdn.com)'s network):
 
 ```html
-<link href="https://cdn.rawgit.com/walchko/font-linux/v0.6/assets/font-linux.css" rel="stylesheet">
+<link href="https://cdn.rawgit.com/walchko/techno-font/v0.7.3/assets/techno-font.css" rel="stylesheet">
 ```
 
 MaxCDN uses the following links:
