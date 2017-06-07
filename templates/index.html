@@ -7,7 +7,7 @@
 
 	image_width = 888
 
-	version = '0.7.3'
+	version = 'v0.7.3'
 
 	icon_count = icons.length
 	spacing = 10
@@ -49,9 +49,7 @@
 		padding: 0.5em;
 	}
 	.right {
-		/*text-align: right;*/
 		float: right;
-		/*width: 100%;*/
 	}
 	.bob:visited, .bob:link {
 		color: white;
@@ -59,6 +57,10 @@
 	figure {
 		background-color: #eeeeee;
 		padding:0.25em;
+	}
+	.mybutton {
+		text-align: center;
+		margin: 3em;
 	}
 </style>
 </head>
@@ -70,31 +72,36 @@
 		<a href="https://github.com/walchko/techno-font" class="bob"><i class="tf-github right"></i></a>
 	</header>
 
-<h2>Usage</h2>
+	<div class="mybutton">
+		<a class="pure-button pure-button-primary" href="https://github.com/walchko/techno-font/archive/<%= version %>.zip">Download (zip)</a>
+	</div>
 
-<p>To use the font, include assets/techno-font.css as well as the fonts in your project.</p>
+	<h2>Usage</h2>
 
-<figure>
-<p>
-<code>&lt;link href="/assets/techno-font.css" rel="stylesheet"&gt;</code>
-</p>
-</figure>
+	<p>To use the font, include assets/techno-font.css as well as the fonts in your project.</p>
 
-<p>Or just link to it using RawGit (served via MaxCDN’s network):</p>
+	<figure>
+		<p>
+			<code>&lt;link href="/assets/techno-font.css" rel="stylesheet"&gt;</code>
+		</p>
+	</figure>
 
-<figure>
-<p><code>&lt;link href="https://cdn.rawgit.com/walchko/techno-font/<%= version %>/assets/techno-font.css" rel="stylesheet"&gt;</code></p></figure>
+	<p>Or just link to it using RawGit (served via MaxCDN’s network):</p>
 
-<p>Use the CSS classes listed below like this:</p>
+	<figure>
+		<p><code>&lt;link href="https://cdn.rawgit.com/walchko/techno-font/<%= version %>/assets/techno-font.css" rel="stylesheet"&gt;</code></p>
+	</figure>
 
-<figure>
-<p><code>&lt;i class="tf-archlinux"&gt;&lt;/i&gt;</code></p>
-<p><code>&lt;i class="tf-archlinux tf-24"&gt;&lt;/i&gt;</code></p>
-<p><code>&lt;i class="tf-archlinux tf-24" style="color:red"&gt;&lt;/i&gt;</code></p>
-<p><code>&lt;i class="tf-archlinux" style="font-size:172px;color:red"&gt;&lt;/i&gt;</code></p>
-</figure>
+	<p>Use the CSS classes listed below like this:</p>
 
-<hr>
+	<figure>
+		<p><code>&lt;i class="tf-archlinux"&gt;&lt;/i&gt;</code></p>
+		<p><code>&lt;i class="tf-archlinux tf-24"&gt;&lt;/i&gt;</code></p>
+		<p><code>&lt;i class="tf-archlinux tf-24" style="color:red"&gt;&lt;/i&gt;</code></p>
+		<p><code>&lt;i class="tf-archlinux" style="font-size:172px;color:red"&gt;&lt;/i&gt;</code></p>
+	</figure>
+
+	<hr>
 
 	<div class="pure-g center">
 		<% icons.each do |name, value| %><div class="pure-u-1-5"><i class="tf-<%= name %> tf-48"></i><span>tf-<%= name %></span></div><% end %>

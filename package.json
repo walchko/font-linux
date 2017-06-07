@@ -1,12 +1,9 @@
 {
-  "name": "techo-font",
-  "version": "0.7.3",
+  "name": "techno-font",
+  "version": "0.0.5",
   "description": "web font",
   "main": "index.js",
-  "directories": {
-    "doc": "docs",
-    "test": "test"
-  },
+  "sytle": "assets/techno-font.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,12 +14,16 @@
   "keywords": [
     "web",
     "font",
-    "linux"
+    "linux",
+    "tech",
+    "techno",
+    "technology"
   ],
   "author": "Kevin J. Walchko",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/walchko/techno-font/issues"
   },
-  "homepage": "https://github.com/walchko/techno-font#readme"
+  "homepage": "https://github.com/walchko/techno-font#readme",
+  "dependencies": {}
 }
